@@ -71,7 +71,7 @@ let inputString = "  Welcome to the Coding Bootcamp! Learn JavaScript today.  ";
 // 1. Searching
 let hasJavaScript = inputString.includes('JavaScript');
 let codingPosition = inputString.indexOf('Coding');
-let startsWithWelcome = inputString.indexOf('Welcome');
+let startsWithWelcome = inputString.startsWith('Welcome');
 let endsWithToday = inputString.endsWith('today.');
 
 // 2. Transforming
